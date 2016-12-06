@@ -7,6 +7,9 @@ package com.example.ashiquechowdhury.javamidterm;
 public class Problem1 {
     public int factorial(int n) {
         //fill out code here
-        return 0;
+        if (n == 1) {
+            return 1;
+        } else return n * factorial(n - 1);
+    
     }
 }
