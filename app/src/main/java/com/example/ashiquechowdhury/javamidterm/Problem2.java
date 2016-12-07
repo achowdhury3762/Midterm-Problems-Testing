@@ -7,6 +7,11 @@ package com.example.ashiquechowdhury.javamidterm;
 public class Problem2 {
     public String repeatEnd(String input, int n){
         //fill out code here
-        return "";
+        String answer = "";
+        String endChar = input.substring(input.length() - n);
+        for (int i = 0; i < n; i++) {
+            answer += endChar;
+        }
+        return answer;
     }
 }
