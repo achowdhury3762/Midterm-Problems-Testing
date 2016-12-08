@@ -10,7 +10,6 @@ public class Problem4 {
         for (int i = 0; i < input.length()-2; i++) {
             if(input.charAt(i) == input.charAt(i+1) && input.charAt(i+1) == input.charAt(i+2)){
                 count++;
-                i+=2;
             }
         }
         return count;
