@@ -20,7 +20,7 @@ public class Problem4Test {
     public void testTriplesInARow(){
         String input = "aaaaaaaaaaaaaaaaaaaaa";
         int methodAnswer = tripleProblem.countTriple(input);
-        assertEquals(7, methodAnswer);
+        assertEquals(19, methodAnswer);
     }
 
     @Test
